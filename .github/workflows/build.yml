@@ -27,7 +27,7 @@ jobs:
       continue-on-error: ${{ matrix.rust-toolchain == 'nightly' }}
       run: cargo fmt --all -- --check
 
-    - uses: ./.github/workflows/actions/setup-musl
+    - uses: arceos-org/setup-musl@v0.1
       with:
         arch: ${{ matrix.arch }}
     - name: Clippy for the default target
