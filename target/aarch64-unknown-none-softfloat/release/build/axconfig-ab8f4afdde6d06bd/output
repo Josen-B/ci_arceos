@@ -1,2 +1,0 @@
-cargo:rerun-if-env-changed=AX_CONFIG_PATH
-cargo:rerun-if-changed=/code/arceos/.axconfig.toml

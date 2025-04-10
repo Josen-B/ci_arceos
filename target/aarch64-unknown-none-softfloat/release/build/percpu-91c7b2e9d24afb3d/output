@@ -1,2 +1,0 @@
-cargo:rustc-link-arg-tests=-no-pie
-cargo:rustc-link-arg-tests=-T/root/.cargo/registry/src/rsproxy.cn-149c464e3abe9b69/percpu-0.1.6/test_percpu.x

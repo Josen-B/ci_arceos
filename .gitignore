@@ -1,0 +1,8 @@
+/target
+/.vscode
+*.asm
+*.img
+*.o
+*.elf
+*.bin
+

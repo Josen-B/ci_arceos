@@ -1,1 +1,0 @@
-{"rustc":4970992720194516544,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[12137018940045374887,"build_script_build",false,11220128415476251293]],"local":[{"RerunIfChanged":{"output":"aarch64-unknown-none/debug/build/axlibc-8b37f531bf772bc4/output","paths":["ctypes.h"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}
