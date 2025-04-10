@@ -1,0 +1,4 @@
+cargo:rustc-cfg=platform="dummy"
+cargo:rustc-cfg=platform_family="dummy"
+cargo::rustc-check-cfg=cfg(platform, values("aarch64-bsta1000b", "aarch64-qemu-virt", "aarch64-raspi4", "loongarch64-qemu-virt", "aarch64-rk3588j", "riscv64-qemu-virt", "x86_64-pc-oslab", "x86_64-qemu-q35"))
+cargo::rustc-check-cfg=cfg(platform_family, values("aarch64-bsta1000b", "aarch64-phytium-pi", "aarch64-qemu-virt", "aarch64-raspi", "loongarch64-qemu-virt", "aarch64-rk3588j", "riscv64-qemu-virt", "x86-pc"))

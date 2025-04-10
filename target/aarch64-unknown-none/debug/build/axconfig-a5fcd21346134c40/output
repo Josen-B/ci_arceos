@@ -1,0 +1,2 @@
+cargo:rerun-if-env-changed=AX_CONFIG_PATH
+cargo:rustc-env=AX_CONFIG_PATH=/code/arceos/modules/axconfig/../../configs/dummy.toml
